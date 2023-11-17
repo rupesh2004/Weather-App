@@ -32,8 +32,8 @@ import cz.msebera.android.httpclient.Header;
 
 public class MainActivity extends AppCompatActivity {
 
-    final String api_key = "2da864f72091e11a32ec154ef4d582c7";
-    final String WeatherURL = "https://api.openweathermap.org/data/2.5/weather";
+    final String api_key = "";
+    final String WeatherURL = "";
     final long MIN_TIME = 5000;
     final float MIN_DISTANCE = 1000;
     final int REQUEST_CODE = 101;
