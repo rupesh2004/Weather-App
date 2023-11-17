@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDF5FD"
+    tools:context=".cityFinder">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/backButton"
+        android:onClick="back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/backbutton"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+android:layout_below="@id/backButton"
+        android:layout_above="@+id/nameCity"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/cityimg"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/nameCity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/buttondesign"
+        android:hint="Enter Name of the City"
+        android:imeOptions="actionGo"
+        android:inputType="textAutoComplete"
+        android:paddingStart="15dp"
+        android:textColorHint="#1F1717"
+        android:textSize="20dp" />
+</RelativeLayout>
